@@ -11,8 +11,12 @@ class RiveExample: RiveViewModel {
 }
 
 struct ContentView: View {
+    private var riveExample = RiveExample()
     var body: some View {
-        RiveExample().view()
+        riveExample.view().onAppear(){
+            riveExample.setInput("Horizontal Slide", value: true)
+            riveExample.setInput("Nested Bounce", value: true)
+        }
         
     }
 }

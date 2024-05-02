@@ -378,7 +378,7 @@
 			repositoryURL = "https://github.com/rive-app/rive-ios";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 5.11.1;
+				minimumVersion = 5.11.2;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
