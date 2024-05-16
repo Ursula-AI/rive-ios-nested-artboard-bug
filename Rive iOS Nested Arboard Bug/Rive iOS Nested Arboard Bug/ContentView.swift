@@ -5,7 +5,7 @@ class RiveExample: RiveViewModel {
     init() {
         super.init(
             fileName: "ball_test",
-            stateMachineName: "State Machine 1"
+            stateMachineName: "State Machine", artboardName: "Ball"
         )
     }
 }
